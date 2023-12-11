@@ -1,0 +1,47 @@
+body{margin: 0;
+    box-sizing: border-box;
+    }
+    .container{
+    display: grid;
+    width: 90%;
+    
+    height: 60vh;
+    grid-template-columns: repeat(3, 30%);
+    gap: 20px;
+    text-transform: uppercase;
+    
+    margin: 40vh auto;
+    font-style: italic;
+    color: whitesmoke;
+    }
+    .item1{
+    background-color: darkkhaki;
+    height: 95%;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 10px;
+    }
+    .item2{
+    background-color: whitesmoke;
+    height: 95%;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 10px;
+    color: black;
+    }
+    .item3{
+    background-color: rgb(204, 20, 20);
+    height: 95%;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 10px;
+    }
+    .item3:hover{
+    background-color: darkgoldenrod;
+    }
+    .item2:hover{
+    background-color: darkred
+    }
+    .item1:hover{
+    background-color: darkcyan;
+    }
